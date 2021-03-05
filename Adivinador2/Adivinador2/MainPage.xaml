@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Adivinador2.MainPage">
+
+    <StackLayout>
+        <Label Text="Soy Leo el Adivinador y Puedo decifrar tu fecha de cumpleaños  ¿Quieres intentar? " FontSize="Medium" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" x:Name="lbl1"/>
+        <Button Text="Iniciemos" x:Name="Czar"  Clicked="Czar_Clicked"/>
+        <Label Text=" " HorizontalOptions="Center" x:Name="eti1"/>
+        <Button Text=" " x:Name="but1" Clicked="but1_Clicked"/>
+        <Label Text=" " HorizontalOptions="Center" x:Name="eti2"/>
+        <Button Text=" "  x:Name="but2" Clicked="but2_Clicked"/>
+        <Label Text=" " HorizontalOptions="Center" x:Name="eti3"/>
+        <Button Text=" " x:Name="but3" Clicked="but3_Clicked"/>
+        <Label Text=" " HorizontalOptions="Center" x:Name="eti4"/>
+        <Button Text="" x:Name="but4" Clicked="but4_Clicked"/>
+        <Label Text=" " HorizontalOptions="Center" x:Name="eti5"/>
+        <Entry Placeholder="Ingresa" HorizontalOptions="Center" x:Name="Result" Keyboard="Numeric"/>
+        <Button Text=" " x:Name="Calcular" Clicked="Calcular_Clicked"/>
+        <Button Text=" " x:Name="ren" Clicked="ren_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
